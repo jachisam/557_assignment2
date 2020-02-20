@@ -1,4 +1,5 @@
 Assignment 2: Patterns at GAStech  
+Website: https://jachisam.github.io/557_assignment2/
 
 Team Members: Jordie Chisam, Zhengliang Liu, Casey Mason  
 Analytic Tools Used: Tableau, QGIS, Python, Excel  
