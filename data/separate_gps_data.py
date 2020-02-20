@@ -15,14 +15,5 @@ with open('gps.csv') as csvfile, open("/Users/jordanchisam/Desktop/101.csv", "wb
        
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 

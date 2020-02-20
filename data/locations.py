@@ -2,7 +2,7 @@ import csv
 import datetime
 from datetime import datetime
 
-with open('34.csv', newline='') as csvfile:
+with open('101.csv', newline='') as csvfile:
     data = list(csv.reader(csvfile))
 
 locations = list()
@@ -20,6 +20,10 @@ for index in range(2,nI):
     if minutesInt > 3:
         #(carID,DateVisted ,TimeSpent, Latitude, Longitude)
         locations.append((date1[1],date1[0],diff, date1[2], date1[3]))
+
+
+with open('stop101.csv', newline='') as csvfile:
+writer = csv.writer(csvfile2, delimiter=',')
 
 for row in locations:
     print(row[4])
